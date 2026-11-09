@@ -1,0 +1,2 @@
+# Запускаем проверку для всех лодок на воде, рядом с которыми есть игрок без ачивки
+execute as @e[type=#boat:boats] at @s positioned ~ ~-0.5 ~ if block ~ ~ ~ minecraft:water if entity @p[distance=..2,advancements={boat:unlocked_boating=false}] run function boat:break_boat

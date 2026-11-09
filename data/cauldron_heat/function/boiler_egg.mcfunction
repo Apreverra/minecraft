@@ -1,0 +1,1 @@
+give @s bat_spawn_egg[custom_name='котл',entity_data={id:"minecraft:bat",Tags:["boiler_spawner"]}] 1
